@@ -45,3 +45,6 @@ puts "Linking dotfiles"
 #execute brew.sh
 `sh #{bootstrap_location}/brew.sh`
 
+# Sensible defaults
+`defaults write com.apple.Finder AppleShowAllFiles TRUE`
+`killall finder`
