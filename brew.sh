@@ -35,4 +35,12 @@ fi
 #          $FORMULA
 #	  fi
 #done
-	  
+
+
+#cd `brew --prefix`
+#rm -rf Cellar
+#brew prune
+#rm -rf Library .git .gitignore bin/brew README.md share/man/man1/brew
+#rm -rf ~/Library/Caches/Homebrew
+
+#ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"	  
