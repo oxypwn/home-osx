@@ -1,0 +1,2 @@
+SYNC_BOX=$1
+rsync -avzP -e ssh "$SYNC_BOX"  pandrew@dump.home.lan:~/boxes/
